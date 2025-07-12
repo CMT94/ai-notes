@@ -33,7 +33,7 @@ const LogoutButton = () => {
   return (
     <Button
       variant={"outline"}
-      className="w-24"
+      className="w-24 cursor-pointer"
       onClick={handleLogout}
       disabled={loading}
     >
