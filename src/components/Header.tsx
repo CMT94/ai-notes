@@ -9,7 +9,7 @@ import { LoginButton, LogoutButton, SignupButton } from "./Button";
 import { DarkModeToggle } from "./Toggle";
 
 const Header = () => {
-  const user = true;
+  const user = false;
 
   return (
     <header
